@@ -116,7 +116,7 @@ private:
 			textcolor(WHITE);
 			gotoxy(16,10); cout << "Aluno      :";
 			gotoxy(16,11); cout << "Disciplina :";
-			gotoxy(16,12); cout << "Sequencia  :";
+			gotoxy(16,12); cout << "Sequencia  :                 (1,2,3)";
 			gotoxy(16,13); cout << "Nota       :";
 		}
 		if (qual == 2)
