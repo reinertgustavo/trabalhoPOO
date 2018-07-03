@@ -4,11 +4,9 @@ struct regDisciplina
 	string nome;
 };
 
-
 class Disciplina
 {
 public:
-	
 	Disciplina()
 	{
 		this->lerArquivo();
@@ -79,7 +77,7 @@ public:
 		this->gravarArquivo();
 	}
   
-private:	
+private:
 	regDisciplina registro;
 	vector<regDisciplina> tabelaDisciplinas;
 	int posicao;
@@ -121,7 +119,6 @@ private:
 		}
 		return achei;
 	}
-	
 	
 	void entrarDados()
 	{
