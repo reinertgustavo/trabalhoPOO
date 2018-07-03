@@ -66,7 +66,7 @@ public:
 			}
 			else
 			{
-				t.perguntar("Nao é possivel cadastrar mais que 3 notas.",24);
+				t.perguntar("Nao e possivel cadastrar mais que 3 notas. Pressione qualquer tecla para voltar.",24);
 			}
 			
 		}
