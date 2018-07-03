@@ -42,10 +42,12 @@ public:
 		Tela t;
 		bool achou;
 		string resp;
+		
+		this->lerArquivo();
 	
 		this->montarTela();
 		this->entrarCodigos();
-		achou = this->procurarCodigos();
+		achou=this->procurarCodigos();
 		
 		if (not achou)
 		{
