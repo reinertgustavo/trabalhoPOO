@@ -27,13 +27,13 @@ public:
 		{
 			// mostra o boletim do aluno
 			this->montarTela(3);
-			//this->mostrarBoletimAluno(cfg[1]);
+			this->mostrarBoletimAluno(cfg[1]);
 		}
-		else
+		if (cfg[0]=="D")
 		{
 			// mostra o boletim da disciplina
 			this->montarTela(4);
-			//this->mostrarBoletimDisciplina(cfg[1]);
+			this->mostrarBoletimDisciplina(cfg[1]);
 		}
 	}
 
